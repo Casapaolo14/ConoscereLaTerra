@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(0, 0, 0); height: 90px;">
+        <ui:VisualElement style="flex-grow: 1; height: 50%; align-items: auto; width: 100%; min-width: 50%; min-height: 50%;">
+            <ui:VisualElement style="flex-grow: 1; height: 50%; width: 50%; align-self: flex-start;">
+                <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 113px; align-items: auto; width: 151px; white-space: nowrap; align-self: center;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; height: 174px; width: 156px; align-self: flex-start;">
+                <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 113px; align-items: auto; width: 151px; white-space: nowrap;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
