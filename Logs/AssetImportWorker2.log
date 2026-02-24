@@ -9,11 +9,11 @@ C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker1
+AssetImportWorker2
 -projectPath
 C:/Users/PaoloCasagrande/Desktop/PROGETTO/ConoscereLaTerra
 -logFile
-Logs/AssetImportWorker1.log
+Logs/AssetImportWorker2.log
 -srvPort
 54666
 Successfully changed project path to: C:/Users/PaoloCasagrande/Desktop/PROGETTO/ConoscereLaTerra
@@ -49,16 +49,16 @@ C:/Users/PaoloCasagrande/Desktop/PROGETTO/ConoscereLaTerra
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28240]  Target information:
+Player connection [34560]  Target information:
 
-Player connection [28240]  * "[IP] 192.168.4.103 [Port] 0 [Flags] 2 [Guid] 529649358 [EditorId] 529649358 [Version] 1048832 [Id] WindowsEditor(7,PEFOMANS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [34560]  * "[IP] 192.168.4.103 [Port] 0 [Flags] 2 [Guid] 946914455 [EditorId] 946914455 [Version] 1048832 [Id] WindowsEditor(7,PEFOMANS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [28240] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [28240] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [34560] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [34560] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 78.72 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 1.50 ms.
+Refreshing native plugins compatible for Editor in 83.03 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 1.77 ms.
 Initialize engine version: 2022.3.62f3 (96770f904ca7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/PaoloCasagrande/Desktop/PROGETTO/ConoscereLaTerra/Assets
@@ -73,47 +73,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.031808 seconds.
-- Loaded All Assemblies, in  0.607 seconds
+Registered in 0.032944 seconds.
+- Loaded All Assemblies, in  0.597 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 523 ms
+Android Extension - Scanning For ADB Devices 542 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.999 seconds
-Domain Reload Profiling: 1599ms
-	BeginReloadAssembly (190ms)
+- Finished resetting the current domain, in  0.997 seconds
+Domain Reload Profiling: 1587ms
+	BeginReloadAssembly (184ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (57ms)
+	RebuildCommonClasses (50ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (118ms)
-	LoadAllAssembliesAndSetupDomain (220ms)
-		LoadAssemblies (183ms)
+	initialDomainReloadingComplete (116ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (176ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (216ms)
-			TypeCache.Refresh (214ms)
-				TypeCache.ScanAssembly (195ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (219ms)
+				TypeCache.ScanAssembly (196ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1000ms)
+	FinalizeReload (997ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (933ms)
+		SetupLoadedEditorAssemblies (932ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (671ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (683ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (174ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,7 +122,7 @@ Domain Reload Profiling: 1599ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.274 seconds
+- Loaded All Assemblies, in  1.250 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
@@ -148,47 +148,47 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.262 seconds
-Domain Reload Profiling: 2520ms
-	BeginReloadAssembly (245ms)
+- Finished resetting the current domain, in  1.159 seconds
+Domain Reload Profiling: 2394ms
+	BeginReloadAssembly (234ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (866ms)
-		LoadAssemblies (630ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (858ms)
+		LoadAssemblies (610ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (388ms)
-			TypeCache.Refresh (329ms)
-				TypeCache.ScanAssembly (302ms)
-			ScanForSourceGeneratedMonoScriptInfo (41ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1262ms)
+		AnalyzeDomain (389ms)
+			TypeCache.Refresh (332ms)
+				TypeCache.ScanAssembly (305ms)
+			ScanForSourceGeneratedMonoScriptInfo (43ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1160ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (981ms)
+		SetupLoadedEditorAssemblies (904ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (45ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (167ms)
-			ProcessInitializeOnLoadAttributes (554ms)
-			ProcessInitializeOnLoadMethodAttributes (185ms)
-			AfterProcessingInitializeOnLoad (23ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (505ms)
+			ProcessInitializeOnLoadMethodAttributes (187ms)
+			AfterProcessingInitializeOnLoad (22ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (14ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 47.31 ms, found 13 plugins.
+Refreshing native plugins compatible for Editor in 44.67 ms, found 13 plugins.
 Preloading 1 native plugins for Editor in 0.16 ms.
 Unloading 5861 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 87 unused Assets / (415.6 KB). Loaded Objects now: 6308.
+Unloading 87 unused Assets / (415.4 KB). Loaded Objects now: 6308.
 Memory consumption went from 187.3 MB to 186.9 MB.
-Total: 5.268200 ms (FindLiveObjects: 0.542100 ms CreateObjectMapping: 0.284200 ms MarkObjects: 3.900600 ms  DeleteObjects: 0.540100 ms)
+Total: 5.435400 ms (FindLiveObjects: 0.520500 ms CreateObjectMapping: 0.300000 ms MarkObjects: 4.283400 ms  DeleteObjects: 0.330600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -205,139 +205,219 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 972861.721851 seconds.
-  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/button_red_default_2.png
-  artifactKey: Guid(e7cc71f7591cdfc4584df69c9acce28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/button_red_default_2.png using Guid(e7cc71f7591cdfc4584df69c9acce28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 972861.583880 seconds.
+  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/button_blue_default_2.png
+  artifactKey: Guid(c6f3ddfa43da4ad4cad2375c9d4df858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/button_blue_default_2.png using Guid(c6f3ddfa43da4ad4cad2375c9d4df858) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'aa790cad090b77aeeb4b64380cc7b1ff') in 0.145321 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/panel_2.png
-  artifactKey: Guid(1d7501232a26f3d4ba68eb61c8ac5dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/panel_2.png using Guid(1d7501232a26f3d4ba68eb61c8ac5dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '80bd4042bd59096b27d54da0cc8eac44') in 0.013631 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/panel_title_with_stroke_2.png
-  artifactKey: Guid(6e8cf939ed5c6a64983e9af4004e63c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/panel_title_with_stroke_2.png using Guid(6e8cf939ed5c6a64983e9af4004e63c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7f4a2045a0a83e956f1a5251e3d09e8f') in 0.016375 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.6.5/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4 Outline.png
-  artifactKey: Guid(b7bad1260586fa746a0b67e930892936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.6.5/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4 Outline.png using Guid(b7bad1260586fa746a0b67e930892936) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '92e2e2e2063bac1f6df28f804fc9d1e4') in 0.016601 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.001223 seconds.
-  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/button_purple_default_2.png
-  artifactKey: Guid(11d6874f56486e342aee373a9becbe2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/button_purple_default_2.png using Guid(11d6874f56486e342aee373a9becbe2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1c494f1543cdb6a5853014c463b6e8cf') in 0.020004 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.6.5/Starter Assets/DemoSceneAssets/Sprites/Asset.png
-  artifactKey: Guid(17d565bb4a7744b41b7e4dc7e3a09e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.6.5/Starter Assets/DemoSceneAssets/Sprites/Asset.png using Guid(17d565bb4a7744b41b7e4dc7e3a09e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '69b5a1d897e5750ade9abf32d8790b80') in 0.015886 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/slider_fill_1.png
-  artifactKey: Guid(537e531d04fa12f4e82992729488ad91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/slider_fill_1.png using Guid(537e531d04fa12f4e82992729488ad91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '052eff91b1b3f5d54df75dcc8cd959f0') in 0.019480 seconds
+ -> (artifact id: 'e0480175eda861dd288ace50cfd1100b') in 0.139287 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/button_green_pressed_2.png
-  artifactKey: Guid(7f85979030a88974992ae57906f3b04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/button_green_pressed_2.png using Guid(7f85979030a88974992ae57906f3b04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/panel_title_with_stroke_1.png
+  artifactKey: Guid(7c0ed2a27745eeb449aae124f9e706df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/panel_title_with_stroke_1.png using Guid(7c0ed2a27745eeb449aae124f9e706df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '601109f7bc5f94cc3046d76c5c096a9c') in 0.012787 seconds
+ -> (artifact id: 'fac5da2da9394012ed09f73e8428d830') in 0.013951 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/button_yellow_pressed_2.png
-  artifactKey: Guid(a8aa511ef75cdd84ca98b1e39ff9d760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/button_yellow_pressed_2.png using Guid(a8aa511ef75cdd84ca98b1e39ff9d760) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 0.000023 seconds.
+  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/panel_1.png
+  artifactKey: Guid(f85829ee2c7016c429250e0b7cd16a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/panel_1.png using Guid(f85829ee2c7016c429250e0b7cd16a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e9b64eddc6f18dbbede41d327ea28d55') in 0.015563 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/icon_flour_1.png
-  artifactKey: Guid(5c5990150ba0e0a41b47b39566019be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/icon_flour_1.png using Guid(5c5990150ba0e0a41b47b39566019be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f85257312cb637bcf81de62afb839c30') in 0.016554 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/button_purple_pressed_1.png
-  artifactKey: Guid(ec893ea9c9fd62f41833d0b2c469a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/button_purple_pressed_1.png using Guid(ec893ea9c9fd62f41833d0b2c469a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bff91d55d9b7c9c4b64d5cad18e8c100') in 0.012168 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/button_red_default_1.png
-  artifactKey: Guid(9f28b5ff2e4c35b478809f6c29faf2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/button_red_default_1.png using Guid(9f28b5ff2e4c35b478809f6c29faf2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '571a81da1b17ae70ad92cd61d9a2549d') in 0.012640 seconds
+ -> (artifact id: '0ed25c33a65aa22e4f1d894f6b989092') in 0.013048 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/button_green_default_1.png
-  artifactKey: Guid(2d43c24dc0f08804996ee9fd1a43a3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/button_green_default_1.png using Guid(2d43c24dc0f08804996ee9fd1a43a3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/button_red_pressed_1.png
+  artifactKey: Guid(25e9d631746943949b5fdedafede565f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/button_red_pressed_1.png using Guid(25e9d631746943949b5fdedafede565f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '41a2571caf3e063b64b24a43f441ee5b') in 0.011655 seconds
+ -> (artifact id: '86d2b5f1e4b0a876ee527a63061767d0') in 0.012863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/panel_title_1.png
+  artifactKey: Guid(a259cc0eb16d2ba4d918a83be309d721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/panel_title_1.png using Guid(a259cc0eb16d2ba4d918a83be309d721) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '81921c54f7b3ab0c53bd7f3e0242bab6') in 0.011505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/slider_fill_2.png
+  artifactKey: Guid(341823109243a314f89c4fc3e44f1080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/slider_fill_2.png using Guid(341823109243a314f89c4fc3e44f1080) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1a1d9dc4891a83a62ae5bdc2000e11e4') in 0.014790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/button_red_pressed_2.png
+  artifactKey: Guid(fef7475174d129d488ffdac3175fed69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/button_red_pressed_2.png using Guid(fef7475174d129d488ffdac3175fed69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '884913006fd27d4ebac0484c6590898d') in 0.013144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.5/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60 Outline 4.png
+  artifactKey: Guid(2f8349570a152884fb6cf7ebdc8c18b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.5/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60 Outline 4.png using Guid(2f8349570a152884fb6cf7ebdc8c18b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4e5b26ada898367f298d332b5121efa0') in 0.017566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/button_gray_default_2.png
+  artifactKey: Guid(dc64f8ab275be8141a12dd26f6324a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/button_gray_default_2.png using Guid(dc64f8ab275be8141a12dd26f6324a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b4abf2c44ffd42f9a23cc5cefbb68d94') in 0.013777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/icon_flour_2.png
+  artifactKey: Guid(60a5f1103ab07b24182aa8cd6ef0d02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/icon_flour_2.png using Guid(60a5f1103ab07b24182aa8cd6ef0d02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '97ac5e18022b9da821b4341f9d939c68') in 0.016884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/button_green_default_2.png
+  artifactKey: Guid(8b572ed8117047647b2d3d47940bb1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/button_green_default_2.png using Guid(8b572ed8117047647b2d3d47940bb1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '590a6b90cba6bbc17648a947e35dbf5e') in 0.012204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/slider_background_2.png
+  artifactKey: Guid(da657823a27fce44aacc30bef734d07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/slider_background_2.png using Guid(da657823a27fce44aacc30bef734d07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1acc0ba66fdf699565d70c416025adb6') in 0.014383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/icon_wheat_2.png
+  artifactKey: Guid(b16f466f80f1d7e48b2f3df323f30eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/icon_wheat_2.png using Guid(b16f466f80f1d7e48b2f3df323f30eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3aa794e39ef308b155b4e7961dc44238') in 0.015241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.5/Starter Assets/DemoSceneAssets/Sprites/LegibilityMask.png
+  artifactKey: Guid(a85d80c1edb5d2f458d42e79f78055b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.5/Starter Assets/DemoSceneAssets/Sprites/LegibilityMask.png using Guid(a85d80c1edb5d2f458d42e79f78055b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3ef97e61cd39de1054619c408f24a8b1') in 0.036719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.5/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4.png
+  artifactKey: Guid(affa059594145a843b81788037b4ee21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.5/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4.png using Guid(affa059594145a843b81788037b4ee21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bc27089110b5ded7a4ad6a7b021ce60b') in 0.015759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/panel_inner_1.png
+  artifactKey: Guid(872106fd027812e458f7a8c4d231eb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/panel_inner_1.png using Guid(872106fd027812e458f7a8c4d231eb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '32eaaf640f2e2e47361111186a534fff') in 0.015067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/slider_background_1.png
+  artifactKey: Guid(89b827fbcae57d143a54d231c504cda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/slider_background_1.png using Guid(89b827fbcae57d143a54d231c504cda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1fc0fc07cf9f2915a3ba7bdc4bbe78d4') in 0.015999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/button_yellow_default_1.png
+  artifactKey: Guid(a18243c5d1204634aa8c2b11bd52162e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/button_yellow_default_1.png using Guid(a18243c5d1204634aa8c2b11bd52162e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'afa5b9d3bca63750e55bedf5a09c31f3') in 0.013642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/button_green_pressed_1.png
+  artifactKey: Guid(e7730705a7903654b9e0054dd77a9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/128x128/button_green_pressed_1.png using Guid(e7730705a7903654b9e0054dd77a9969) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b89616136eb1eb65182ce0a7e116522f') in 0.011526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.5/Starter Assets/DemoSceneAssets/Sprites/Forward.png
+  artifactKey: Guid(f8ecc54972abacc46a93f671b0602139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.5/Starter Assets/DemoSceneAssets/Sprites/Forward.png using Guid(f8ecc54972abacc46a93f671b0602139) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bb92431b060acfe91ce66d5b31fe1844') in 0.013853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/button_yellow_default_2.png
+  artifactKey: Guid(202cca839338a4d49aa5db82c2459568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/maanetorn/Farm Game UI - Simple 2D UI/Sprites/256x256/button_yellow_default_2.png using Guid(202cca839338a4d49aa5db82c2459568) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '61f933e3adf7c582996fbc2d364d480c') in 0.013374 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.887 seconds
+- Loaded All Assemblies, in  0.872 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
@@ -359,46 +439,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.526 seconds
-Domain Reload Profiling: 3396ms
-	BeginReloadAssembly (284ms)
+- Finished resetting the current domain, in  2.467 seconds
+Domain Reload Profiling: 3322ms
+	BeginReloadAssembly (276ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (16ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (15ms)
 	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (465ms)
-		LoadAssemblies (585ms)
+	LoadAllAssembliesAndSetupDomain (455ms)
+		LoadAssemblies (573ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (25ms)
+		AnalyzeDomain (26ms)
 			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (2527ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2467ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (885ms)
+		SetupLoadedEditorAssemblies (875ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
+			InitializePlatformSupportModulesInManaged (39ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (148ms)
-			ProcessInitializeOnLoadAttributes (497ms)
-			ProcessInitializeOnLoadMethodAttributes (174ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (480ms)
+			ProcessInitializeOnLoadMethodAttributes (173ms)
 			AfterProcessingInitializeOnLoad (23ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 45.65 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 43.17 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
 Unloading 5827 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (388.6 KB). Loaded Objects now: 6319.
+Unloading 81 unused Assets / (388.7 KB). Loaded Objects now: 6319.
 Memory consumption went from 184.3 MB to 183.9 MB.
-Total: 4.486100 ms (FindLiveObjects: 0.556500 ms CreateObjectMapping: 0.370400 ms MarkObjects: 3.349300 ms  DeleteObjects: 0.208800 ms)
+Total: 4.782700 ms (FindLiveObjects: 0.529400 ms CreateObjectMapping: 0.282900 ms MarkObjects: 3.788900 ms  DeleteObjects: 0.180500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -418,7 +498,7 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.835 seconds
+- Loaded All Assemblies, in  0.811 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
@@ -440,46 +520,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.491 seconds
-Domain Reload Profiling: 3310ms
-	BeginReloadAssembly (257ms)
+- Finished resetting the current domain, in  2.362 seconds
+Domain Reload Profiling: 3157ms
+	BeginReloadAssembly (249ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (47ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (53ms)
 	RebuildNativeTypeToScriptingClass (14ms)
 	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (450ms)
-		LoadAssemblies (563ms)
+	LoadAllAssembliesAndSetupDomain (427ms)
+		LoadAssemblies (538ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (25ms)
+		AnalyzeDomain (24ms)
 			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (2491ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2363ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (853ms)
+		SetupLoadedEditorAssemblies (826ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
+			InitializePlatformSupportModulesInManaged (34ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (157ms)
-			ProcessInitializeOnLoadAttributes (469ms)
-			ProcessInitializeOnLoadMethodAttributes (163ms)
-			AfterProcessingInitializeOnLoad (23ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (456ms)
+			ProcessInitializeOnLoadMethodAttributes (167ms)
+			AfterProcessingInitializeOnLoad (22ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 43.58 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
+Refreshing native plugins compatible for Editor in 43.49 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
 Unloading 5828 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 81 unused Assets / (388.6 KB). Loaded Objects now: 6322.
 Memory consumption went from 184.6 MB to 184.2 MB.
-Total: 4.693100 ms (FindLiveObjects: 0.599600 ms CreateObjectMapping: 0.338300 ms MarkObjects: 3.554200 ms  DeleteObjects: 0.200000 ms)
+Total: 4.896000 ms (FindLiveObjects: 0.520200 ms CreateObjectMapping: 0.295000 ms MarkObjects: 3.837300 ms  DeleteObjects: 0.242500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -495,12 +575,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 145.379070 seconds.
+  path: Assets/Scenes/VR Basics.unity
+  artifactKey: Guid(00ba8c1cd9e813748a087cd824b5a37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VR Basics.unity using Guid(00ba8c1cd9e813748a087cd824b5a37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5f6047f4bb81e66c9e4ac2c0b6073023') in 0.002373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.201 seconds
+- Loaded All Assemblies, in  1.174 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 CoreSettings could not be loaded.
@@ -538,46 +627,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  3.219 seconds
-Domain Reload Profiling: 4400ms
-	BeginReloadAssembly (283ms)
+- Finished resetting the current domain, in  2.913 seconds
+Domain Reload Profiling: 4069ms
+	BeginReloadAssembly (278ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (50ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (58ms)
 	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (777ms)
-		LoadAssemblies (672ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (748ms)
+		LoadAssemblies (651ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (257ms)
-			TypeCache.Refresh (201ms)
-				TypeCache.ScanAssembly (177ms)
-			ScanForSourceGeneratedMonoScriptInfo (41ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (174ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
 			ResolveRequiredComponents (12ms)
-	FinalizeReload (3220ms)
+	FinalizeReload (2914ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1213ms)
+		SetupLoadedEditorAssemblies (1135ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (67ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (245ms)
-			ProcessInitializeOnLoadAttributes (632ms)
-			ProcessInitializeOnLoadMethodAttributes (233ms)
-			AfterProcessingInitializeOnLoad (26ms)
+			BeforeProcessingInitializeOnLoad (204ms)
+			ProcessInitializeOnLoadAttributes (671ms)
+			ProcessInitializeOnLoadMethodAttributes (183ms)
+			AfterProcessingInitializeOnLoad (21ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 48.74 ms, found 13 plugins.
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 52.88 ms, found 13 plugins.
 Preloading 1 native plugins for Editor in 0.18 ms.
-Unloading 6330 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (392.9 KB). Loaded Objects now: 6819.
-Memory consumption went from 197.5 MB to 197.1 MB.
-Total: 4.886800 ms (FindLiveObjects: 0.543400 ms CreateObjectMapping: 0.306600 ms MarkObjects: 3.828800 ms  DeleteObjects: 0.207000 ms)
+Unloading 6329 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (393.0 KB). Loaded Objects now: 6819.
+Memory consumption went from 197.2 MB to 196.8 MB.
+Total: 4.798800 ms (FindLiveObjects: 0.547500 ms CreateObjectMapping: 0.342800 ms MarkObjects: 3.715000 ms  DeleteObjects: 0.192600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1102,7 +1191,7 @@ Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.124 seconds
+- Loaded All Assemblies, in  1.127 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 CoreSettings could not be loaded.
@@ -1137,26 +1226,26 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.299 seconds
-Domain Reload Profiling: 3405ms
-	BeginReloadAssembly (255ms)
+- Finished resetting the current domain, in  2.302 seconds
+Domain Reload Profiling: 3412ms
+	BeginReloadAssembly (258ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (15ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (14ms)
 	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (728ms)
-		LoadAssemblies (632ms)
+	LoadAllAssembliesAndSetupDomain (731ms)
+		LoadAssemblies (643ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (228ms)
+		AnalyzeDomain (225ms)
 			TypeCache.Refresh (173ms)
 				TypeCache.ScanAssembly (153ms)
 			ScanForSourceGeneratedMonoScriptInfo (38ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (2299ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2303ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (772ms)
@@ -1166,17 +1255,17 @@ Domain Reload Profiling: 3405ms
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (145ms)
 			ProcessInitializeOnLoadAttributes (397ms)
-			ProcessInitializeOnLoadMethodAttributes (170ms)
-			AfterProcessingInitializeOnLoad (21ms)
+			ProcessInitializeOnLoadMethodAttributes (171ms)
+			AfterProcessingInitializeOnLoad (22ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 42.02 ms, found 13 plugins.
+Refreshing native plugins compatible for Editor in 42.84 ms, found 13 plugins.
 Preloading 1 native plugins for Editor in 0.16 ms.
 Unloading 6339 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 98 unused Assets / (1.2 MB). Loaded Objects now: 6822.
 Memory consumption went from 200.7 MB to 199.5 MB.
-Total: 4.807500 ms (FindLiveObjects: 0.526000 ms CreateObjectMapping: 0.306700 ms MarkObjects: 3.254300 ms  DeleteObjects: 0.719400 ms)
+Total: 4.965000 ms (FindLiveObjects: 0.540900 ms CreateObjectMapping: 0.311100 ms MarkObjects: 3.383300 ms  DeleteObjects: 0.728600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1700,7 +1789,7 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.076 seconds
+- Loaded All Assemblies, in  1.073 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
@@ -1722,46 +1811,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.263 seconds
-Domain Reload Profiling: 3322ms
-	BeginReloadAssembly (244ms)
+- Finished resetting the current domain, in  2.280 seconds
+Domain Reload Profiling: 3336ms
+	BeginReloadAssembly (248ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (685ms)
-		LoadAssemblies (573ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (681ms)
+		LoadAssemblies (577ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (237ms)
-			TypeCache.Refresh (173ms)
-				TypeCache.ScanAssembly (153ms)
-			ScanForSourceGeneratedMonoScriptInfo (44ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (2263ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (155ms)
+			ScanForSourceGeneratedMonoScriptInfo (37ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2280ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (755ms)
+		SetupLoadedEditorAssemblies (765ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (148ms)
-			ProcessInitializeOnLoadAttributes (391ms)
-			ProcessInitializeOnLoadMethodAttributes (156ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (389ms)
+			ProcessInitializeOnLoadMethodAttributes (159ms)
 			AfterProcessingInitializeOnLoad (21ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 42.52 ms, found 13 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 41.45 ms, found 13 plugins.
 Preloading 1 native plugins for Editor in 0.17 ms.
 Unloading 5828 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 490 unused Assets / (0.7 MB). Loaded Objects now: 6416.
 Memory consumption went from 188.7 MB to 188.1 MB.
-Total: 4.792500 ms (FindLiveObjects: 0.540400 ms CreateObjectMapping: 0.300800 ms MarkObjects: 3.326500 ms  DeleteObjects: 0.623900 ms)
+Total: 5.088700 ms (FindLiveObjects: 0.537800 ms CreateObjectMapping: 0.303900 ms MarkObjects: 3.629800 ms  DeleteObjects: 0.616300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
