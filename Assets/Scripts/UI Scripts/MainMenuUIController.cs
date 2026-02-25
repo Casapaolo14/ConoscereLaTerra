@@ -10,6 +10,14 @@ public class MainMenuUIController : MonoBehaviour
     // 1. Metodo per il bottone INIZIA
     public void IniziaGioco()
     {
+        // Carica la scena chiamata "TutorialScene"
+        // Assicurati che sia aggiunta nelle Build Settings!
+        SceneManager.LoadScene("TutorialScene");
+    }
+
+    // 1. Metodo per il bottone INIZIA
+    public void IniziaGiocoReale()
+    {
         // Carica la scena chiamata "WorldScene"
         // Assicurati che sia aggiunta nelle Build Settings!
         SceneManager.LoadScene("WorldScene");

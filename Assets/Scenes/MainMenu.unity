@@ -3663,6 +3663,10 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1145763511}
+    - target: {fileID: 1718044140793320946, guid: affd3430f92b85e49bf250b84bab2bd7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3974200416849068339, guid: affd3430f92b85e49bf250b84bab2bd7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
